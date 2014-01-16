@@ -14,6 +14,7 @@ RVM
 Ruby 1.9.3 (from rvm)
 This repo's source code
 bundler (in the rvm gemset named simple_rspec_test)
+chromedriver
 
 We will assume that you already have git... 
 
@@ -52,7 +53,13 @@ Step five: Run bundler:
 bundle install
 
 
-Step six: Run the tests:
+Step six: Install chromedriver:
+-------------------------------
+
+brew install chromedriver
+
+
+Step seven: Run the tests:
 ------------------------
 
 rspec root/spec/my_model_spec.rb
