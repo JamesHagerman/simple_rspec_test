@@ -1,7 +1,7 @@
 require 'rspec'
 require 'capybara/rspec'
 require 'capybara/dsl'
-# require 'capybara-cucumber'
+require 'capybara/cucumber'
 
 @test_url = ""
 
