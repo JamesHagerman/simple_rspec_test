@@ -31,7 +31,7 @@ end
 #   end
 # end
 
-describe "loading google in chrome", :js => false  do
+describe "loading google in firefox", :js => false  do
   it "shows the regular form" do 
     visit "/"
     page.should have_content "Google Search"    

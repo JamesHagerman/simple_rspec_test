@@ -3,6 +3,7 @@ require 'capybara'
 require 'capybara/dsl'
 require 'capybara/rspec'
 require 'rspec/expectations'
+# require 'capybara-cucumber'
 
 
 Capybara.run_server = false
@@ -14,7 +15,7 @@ module MyCapybaraTest
     include Capybara::DSL
     def test_google
       visit('/')
-      page.should have_content("Google Search")
+      # page.should have_content("Google Search")
     end
   end
 end
