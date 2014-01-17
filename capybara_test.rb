@@ -3,7 +3,7 @@ require 'capybara'
 require 'capybara/dsl'
 require 'capybara/rspec'
 require 'rspec/expectations'
-# require 'capybara-cucumber'
+require 'capybara/cucumber'
 
 
 Capybara.run_server = false
